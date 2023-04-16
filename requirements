@@ -1,0 +1,19 @@
+# Requerimientos que hay que tener instalados
+pandas
+plotly
+mysql-connector-python
+seaborn
+wordcloud
+
+mysql-connector-python
+
+streamlit
+
+spacy 
+textblob
+
+# Para siguientes ejecuciones, solo ejecutar esto y reiniciar despues el entorno
+!python -m spacy download en_core_web_lg    # Descarga el modelo en inglés
+!python -m spacy download es_core_news_lg   # Descarga el modelo en español 
+
+translate
